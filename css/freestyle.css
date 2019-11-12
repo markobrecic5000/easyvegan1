@@ -1,0 +1,419 @@
+
+
+
+body {
+    margin: 0em auto;
+    width: 1100px;
+    text-align: center;
+    justify-content: center;
+    background-color: #fcebff;
+    font-family: sans-serif;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+section {
+    padding: 3em 1em;
+}
+
+
+
+
+
+p {
+    margin-bottom: 0.85em;
+    font-size: 20px
+}
+
+
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+
+
+
+
+.logo {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #428e00;
+}
+
+h3 {
+    font-size: 50px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 30px;
+    color: white;
+}
+
+
+
+
+
+header {
+    padding: 1em 0 2em;
+}
+
+
+.current {
+    color: #00bf00;
+}
+
+
+
+nav ul {
+display: flex;
+list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+}
+
+nav a {
+text-decoration: none;
+display: inline-block;
+padding: 0.5em;
+color: #5f5f5f;
+
+}
+
+nav a:hover,
+can a:focus {
+    color: #00bf00;
+    transition: ease-in 0.2s
+}
+
+
+
+
+
+
+
+
+.intro {
+    background-color: #d6d6d6;
+    background-image: url(../images/leaf.jpg);
+    background-blend-mode:multiply;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 15vh 1em;
+
+    }
+
+
+.animals {
+    background: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    color: black;
+
+}
+
+.animals-intro {
+    background-color: #b5b5b5;
+    background-image: url(../images/piglet.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 150px;
+    padding-bottom: 150px;
+
+
+}
+
+.animals-body {
+    padding: 2em;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.env {
+    background: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    color: black;
+
+
+}
+
+.env-intro {
+    background-color: #b5b5b5;
+    background-image: url(../images/env.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 150px;
+    padding-bottom: 150px;
+
+}
+
+.env-body {
+    padding: 2em;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.health {
+    background: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    color: black;
+
+}
+
+.health-intro {
+    background-color: #b5b5b5;
+    background-image: url(../images/health.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 150px;
+    padding-bottom: 150px;
+
+}
+
+.health-body {
+    padding: 2em;
+}
+
+
+
+
+
+
+.readmore {
+    background-color: #868686;
+    background-image: url(../images/books.jpg);
+    background-blend-mode: multiply;
+    margin: 0;
+    padding: 1px 1px 50px 1px;
+}
+
+
+.readmore-title {
+    color: white;
+    margin-bottom: 0;
+    margin-top: 2em;
+    padding: 0;
+}
+
+.peadmore {
+    margin-top: 0;
+    margin-bottom: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+    color: white;
+}
+
+
+
+.btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0.75em 2.5em;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    background: #037203;
+}
+
+
+
+
+
+
+footer {
+    background: #333;
+    padding: 3em 2em 4em 0em;
+    padding-bottom: 5em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+footer a {
+    color: inherit;
+}
+
+.footer-nav {
+    list-style: none;
+
+}
+
+.footer-nav,
+.footer-social {
+    list-style: none;
+    margin-bottom: 1em;
+    padding-bottom: 0;
+    justify-content: center;
+    position:absolute;
+}
+
+.footer-nav a {
+    padding: 0.75em;
+    text-decoration: none;
+}
+
+.footer-nav a:hover {
+    text-decoration: none;
+}
+
+footer-social {
+    list-style: none;
+    padding-top: 30px;
+}
+
+
+.social-link {
+    padding: 1em;
+    margin-bottom: 5px;
+}
+.social-icon {
+    padding: 50px 30px 10px 60px;
+    width: 33px;
+
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 750px) {
+    section {
+        padding: 6em 1em;
+    }
+
+    .animals {
+        flex-direction: row;
+    }
+
+    .animals-intro,
+    .animals-body {
+        flex: 0 1 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 3em 1em;
+    }
+
+
+
+
+
+
+    .env {
+        flex-direction: row-reverse;
+    }
+
+    .env-intro,
+    .env-body {
+
+        flex: 0 1 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 3em 1em;
+
+
+
+    }
+
+
+
+
+
+
+    .health {
+        flex-direction: row;
+    }
+
+    .health-intro,
+    .health-body {
+        flex: 0 1 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 3em 1em;
+    }
+
+
+
+}
+
+
+@media only screen and (max-width: 1100px) {
+
+    body {
+        width: 100%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,523 @@
+
+
+
+body {
+    margin: 0 auto;
+    width: 1100px;
+    text-align: center;
+    justify-content: center;
+    background-color: #fcebff;
+    font-family: sans-serif;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+section {
+    padding: 3em 1em;
+}
+
+
+p {
+    margin-bottom: 0.85em;
+    font-size: 20px
+}
+
+
+
+p:last-child {
+    margin-bottom: 5em;
+}
+
+
+
+.current {
+    color: #00bf00;
+}
+
+.logo {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #428e00;
+}
+
+h3 {
+    font-size: 40px;
+    color: white;
+    margin: 20px;
+    padding: 0px;
+    background-color: aliceblue;
+}
+
+h2 {
+    font-size: 30px;
+    color: white;
+}
+
+
+hr {
+width: 10em;
+margin-left: auto;
+margin-right: auto;
+}
+
+.hr1 {
+    width: 15em;
+    padding: 0px;
+}
+
+
+header {
+    padding: 1em 0 2em;
+}
+
+
+nav ul {
+display: flex;
+list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+}
+
+nav a {
+text-decoration: none;
+display: inline-block;
+padding: 0.5em;
+color: #5f5f5f;
+
+}
+
+nav a:hover,
+can a:focus {
+    color: #00bf00;
+    margin: 0;
+    transition: ease-in 0.2s;
+
+
+}
+
+.section-title {
+
+    background-color: rgba(39, 109, 82, 0.81);
+
+    padding-bottom: 1em;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.intro {
+    background-image: url(../images/coin.jpg);
+    background-blend-mode:multiply;
+    background-size: cover;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+.expensive {
+    background: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    color: black;
+
+}
+
+.expensive-title {
+    color: black;
+    margin: 1em 0 0 0;
+}
+
+.expensive-intro {
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    padding-bottom: 0px;
+
+
+
+}
+
+.expensive-body {
+    padding: 0em 1em 3em;
+    margin: 0 1em 0 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.salad {
+    background: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    color: black;
+
+}
+
+.salad-title {
+    margin: 0px;
+    padding: 0px;
+}
+
+.salad-intro {
+    background-color: #b5b5b5;
+    background-image: url(../images/salad.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-top: 150px;
+    padding-bottom: 150px;
+
+}
+
+.salad-body {
+    padding: 0em 1em 3em;
+    margin: 0 1em 0 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.milk {
+    background: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    color: black;
+
+}
+
+.milk-title {
+    margin: -2px;
+    padding: 0px;
+}
+
+.milk-intro {
+    background-color: #b5b5b5;
+    background-image: url(../images/milk.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-top: 150px;
+    padding-bottom: 150px;
+
+}
+
+.milk-body {
+    padding: 0em 1em 3em;
+    margin: 0 1em 0 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+.vege {
+    background: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    color: black;
+
+}
+
+.vege-title {
+    margin: 0px;
+    padding: 0px;
+}
+
+.vege-intro {
+    background-color: #b5b5b5;
+    background-image: url(../images/vege.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.vege-body {
+    padding: 0em 1em 3em;
+    margin: 0 1em 0 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.readmore {
+    background-color: #4a4a4a;
+    background-image: url(../images/Blue.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    margin: 0;
+    padding: 0;
+}
+
+
+.readmore-title {
+    color: white;
+    margin-top: 2em;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.peadmore {
+    margin-top: 0;
+    color: white;
+}
+
+
+
+.btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0.75em 2.5em;
+    margin-top: 1em;
+    margin-bottom: 4em;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    background: #037203;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background: #333;
+    padding: 3em 1em 4em 1em;
+    padding-bottom: 5em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 0em;
+    margin-bottom: 0em
+}
+
+footer a {
+    color: inherit;
+}
+
+.footer-nav {
+    list-style: none;
+
+}
+
+.footer-nav,
+.footer-social {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    position: absolute;
+}
+
+.footer-nav a {
+    padding: 0.75em;
+    text-decoration: none;
+}
+
+.footer-nav a:hover {
+    text-decoration: none;
+}
+
+footer-social {
+    list-style: none;
+}
+
+
+.social-link {
+    padding: 0.25em;
+    margin-bottom: 5px;
+}
+.social-icon {
+    padding: 30px;
+    width: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 850px) {
+    section {
+        padding: 6em 1em
+    }
+
+    .expensive {
+        flex-direction: row;
+    }
+
+    .expensive-intro,
+    .expensive-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2em 3em 2em 3em;
+    }
+
+    .salad {
+        flex-direction: column;
+    }
+
+    .salad-intro,
+    .salad-body {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2em 8em 2em 8em;
+    }
+
+    .milk {
+        flex-direction: column;
+    }
+
+    .milk-intro,
+    .milk-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2em 8em 2em 8em;
+    }
+
+
+
+
+
+    .vege {
+        flex-direction: column;
+    }
+
+    .vege-intro,
+    .vege-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2em 8em 2em 8em;
+    }
+
+
+
+}
+
+
+@media only screen and (max-width: 1100px) {
+
+    body {
+        width: 100%;
+    }
+
+    .vege-intro {
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+
+    .section-title {
+        width: 100%;
+    }
+
+    .intro {
+        padding-left: 0;
+    }
+}
+
+
+
+
+
